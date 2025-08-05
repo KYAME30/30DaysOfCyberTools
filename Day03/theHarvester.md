@@ -26,7 +26,12 @@ theHarvester -d example.com -b bing -f output.html
 - تحديد البنية العامة للمجال المستهدف
 
 ## 📝 My Notes:
-- 
+- جربت الأداة على نطاق مثل: `example.com`
+- استخدمت محرك `bing`، وطلعت لي عدة إيميلات مرتبطة بالنطاق
+- جربت كمان محرك `google` باستخدام:
+  ```bash
+  theHarvester -d example.com -b google -l 100
+
 
 ## 🔗 References:
 - https://github.com/laramies/theHarvester
